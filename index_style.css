@@ -12,13 +12,17 @@ body {
 header {
     background-color: var(--third-color);
 }
-
-ul {
-    list-style-type: none;
+/*===== Navigation =====*/
+.nav ul {
+    list-style: none;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
 }
 
-li {
-    float: left;
+.nav li {
     color: var(--first-color);
     padding: 8px;
+    display: inline-block;
+    margin-right:-4px
 }
