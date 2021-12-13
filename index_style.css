@@ -1,18 +1,24 @@
+/* ===== Colors =====*/
+:root {
+    --first-color: white;
+    --second-color: lightblue;
+    --third-color: grey;
+}
+
 body {
-    background-color: lightblue;
+    background-color: var(--second-color);
 }
 
 header {
-    background-color: gray;
+    background-color: var(--third-color);
 }
 
 ul {
     list-style-type: none;
-    background-color: green;
 }
 
 li {
     float: left;
-    color: white;
+    color: var(--first-color);
     padding: 8px;
 }
