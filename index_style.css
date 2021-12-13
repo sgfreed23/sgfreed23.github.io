@@ -12,3 +12,8 @@ ul {
     padding: 0;
     background-color: green;
 }
+
+li {
+    float: left;
+    color: white;
+}
