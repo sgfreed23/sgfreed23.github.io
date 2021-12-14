@@ -21,11 +21,11 @@ body {
 
 header {
     background-color: var(--second-color);
-    display: inline-block;
+    
 }
 /*===== Navigation =====*/
 .nav{
-    display: inline-block;
+    
 }
 .nav ul {
     list-style: none;
