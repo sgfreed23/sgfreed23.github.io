@@ -1,16 +1,19 @@
 /* ===== Colors =====*/
 :root {
-    --first-color: white;
-    --second-color: lightblue;
-    --third-color: grey;
+    --first-color: black;
+    --second-color: white;
 }
+
+/* ===== Body ===== */
 
 body {
     background-color: var(--second-color);
 }
 
+/* ===== Header ===== */
+
 header {
-    background-color: var(--third-color);
+    background-color: var(--second-color);
 }
 /*===== Navigation =====*/
 .nav ul {
