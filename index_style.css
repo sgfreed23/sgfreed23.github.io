@@ -24,8 +24,12 @@ header {
     
 }
 /*===== Navigation =====*/
-h1{
+.logo h1{
     text-align: center;
+    color: var(--first-color);
+}
+.nav{
+    background-color: var(--first-color);
 }
 .nav ul {
     list-style: none;
@@ -35,7 +39,7 @@ h1{
 }
 
 .nav li {
-    color: var(--first-color);
+    color: var(--second-color);
     padding: 8px;
     display: inline-block;
     margin-right:-4px;
