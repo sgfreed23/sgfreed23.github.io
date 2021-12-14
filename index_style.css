@@ -21,11 +21,12 @@ body {
 
 header {
     background-color: var(--second-color);
+    display: inline;
     
 }
 /*===== Navigation =====*/
-.nav{
-    
+h1{
+    text-align: center;
 }
 .nav ul {
     list-style: none;
