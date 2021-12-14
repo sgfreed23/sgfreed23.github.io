@@ -21,6 +21,7 @@ body {
 
 header {
     background-color: var(--second-color);
+    display: inline-block;
 }
 /*===== Navigation =====*/
 .nav{
