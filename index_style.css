@@ -29,3 +29,8 @@ header {
     display: inline-block;
     margin-right:-4px
 }
+
+/*===== Links =====*/
+a{
+    text-decoration: none;
+}
