@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body{
-  background-color: black;
-  font-family: "Montserrat"
+  font-family: "Montserrat";
+  background-image: url("https://images.unsplash.com/photo-1547626399-ea64a0dcc51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
+
+/* NAVIGATION */
+
 .gc-1{
   display: grid;
   grid-template-columns: 20% auto;
@@ -44,38 +49,52 @@ a:visited{
 a:hover{
   text-decoration: underline;
 }
-img {
-  position: absolute;
-  z-index: -1
-}
+
+/* INTRO */
 
 .intro p {
   color: white;
+  font-size: 50px;
+  text-align: center;
 }
 .intro span{
   color: #2196F3;
 }
+
+/*ABOUT*/
+
 .about h1{
-  color: #2196F3;
+  color: white;
   text-align: center;
 }
+
+.gc-2{
+  display: grid;
+  color: white;
+  grid-template-columns: 15% 35% 35% 15%;
+}
+
+.grid-item-2{
+  background-color: white;
+  color: #2f2f2f;
+  text-align: center;
+}
+
+.grid-item-2 img{
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+}
+
+/* SKILLS */
+
 .skills h1{
-  color: #2196F3;
+  color: white;
   text-align: center;
 }
 .skills p {
   color: white;
 }
-.gc-2{
-  display: grid;
-  color: white;
-  grid-template-columns: 25% auto auto 25%;
-}
-.grid-item-2{
-background-color: white;
-}
-
-
 
 .gc-3{
   display: grid;
@@ -91,7 +110,66 @@ background-color: white;
   text-align: center;
 }
 
+/* CONTACT */
+
 .contact h1{
-  color: #2196F3;
+  color: white;
   text-align: center
 }
+
+.gc-4{
+  display: grid;
+  color: white;
+  grid-template-columns: auto 20% auto;
+}
+
+.contact__input{
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+.contact__button{
+  display: block;
+  border:none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 318px;
+  background-color: blue;
+  color: white;
+  padding:  10px 25px;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+
+.footer-break{
+  width: 75%;
+}
+
+.footer-title{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.footer-social{
+  text-align: center;
+}
+
+.footer-social img{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: solid white 5px;
+  border-radius: 50px 50px 50px 50px; 
+}
+
+.ownership{
+  color: white;
+  text-align: center;
+}
+
