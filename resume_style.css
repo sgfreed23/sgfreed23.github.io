@@ -5,7 +5,7 @@ body{
   background-image: url("https://images.unsplash.com/photo-1547626399-ea64a0dcc51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 400% auto;
+  background-size: 1000% auto;
 }
 
 /* NAVIGATION */
@@ -60,16 +60,15 @@ ul{
 
 .resume{
   width: 70%;
-  display: flex;
   margin: 25px auto;
   background: white;
-  
+  display: flex;
 }
 
 .left{
-  padding: 20px;
   background: #2f2f2f;
 	width: 250px;
+  padding: 20px;
 }
 
 .left .icon{
@@ -147,7 +146,105 @@ ul{
 	color: #FFFFFF;
 }
 
+.right{
+  width: auto;
+}
 
+.header{
+	background: #2f2f2f;
+	padding: 15px 30px;
+	color: #fff;
+	height: 240px;
+}
+
+.header .name{
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4070F4;
+}
+
+
+.header .role{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header .about{
+	margin-top: 20px;
+	line-height: 26px;
+  word-break: keep-all;
+}
+
+.right_inner{
+	padding: 30px;
+	color: #000000;
+}
+
+.right_inner .education{
+	margin-top: 30px;
+}
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+    width: 125px;
+    color: #4070F4;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #4070F4;
+}
+
+.right_inner .li_wrap .info_resume_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #4070F4;
+}
+
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #4070F4;
+	border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #4070F4;
+}
 
 /* FOOTER */
 

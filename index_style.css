@@ -5,7 +5,7 @@ body{
   background-image: url("https://images.unsplash.com/photo-1547626399-ea64a0dcc51c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: 400%;
+  background-size: 1000% auto;
 }
 
 /* NAVIGATION */
@@ -79,6 +79,14 @@ a:hover{
   background-color: white;
   color: #2f2f2f;
   text-align: center;
+}
+
+.grid-item-2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .grid-item-2 img{
@@ -173,4 +181,3 @@ a:hover{
   color: white;
   text-align: center;
 }
-
