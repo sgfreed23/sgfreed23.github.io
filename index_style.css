@@ -92,6 +92,7 @@ a:hover{
 .grid-item-2 img{
   height: 250px;
   width: 250px;
+  border-radius: 150px;
 }
 
 /* SKILLS */
