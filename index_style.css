@@ -79,8 +79,6 @@ a:hover{
   background-color: white;
   color: #2f2f2f;
   text-align: center;
-  width: 250px;
-  border-radius: 150px;
 }
 
 .grid-item-2 img{
@@ -92,7 +90,7 @@ a:hover{
 }
 
 .grid-item-2 img{
-  height: 250px;
+  height: 400px;
   width: 250px;
   border-radius: 150px;
 }
