@@ -59,7 +59,7 @@ a:hover{
   text-align: center;
 }
 .intro span{
-  color: #2196F3;
+  color: #2f2f2f;
 }
 
 /*ABOUT*/
@@ -147,7 +147,7 @@ a:hover{
   outline: none;
   cursor: pointer;
   margin-left: 318px;
-  background-color: blue;
+  background-color: #2f2f2f;
   color: white;
   padding:  10px 25px;
   border-radius: 10px;
