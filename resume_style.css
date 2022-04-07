@@ -177,7 +177,8 @@ ul{
 .header .about{
 	margin-top: 20px;
 	line-height: 26px;
-  word-break: keep-all;
+  	word-break: keep-all;
+	font-size: 12px
 }
 
 .right_inner{
